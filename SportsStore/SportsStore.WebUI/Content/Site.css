@@ -1,0 +1,139 @@
+﻿body {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+body {
+    font-family: Cambria, Georgia, "Times New Roman";
+    margin: 0;
+}
+div#header {
+    background-color: #444;
+    border-bottom: 2px solid #111;
+    color: White;
+}
+div#header div.title {
+    font-size: 2em;
+    padding: .6em;
+}
+div#contnt {
+    border-left: 2px solid gray;
+    margin-left: 9em;
+    padding: 1em;
+}
+div#categories {
+    float: left;
+    width: 8em;
+    padding: .3em;
+}
+div.item {
+    border-top: 1px dotted gray;
+    padding-top: .7em;
+    margin-bottom: .7em;
+}
+div.item:first-child {
+    border-top: none;
+    padding-top: 0;
+}
+div.item h3 {
+    font-size: 1.3em;
+    margin: 0 0 .25em 0;
+}
+div.item h4 {
+    font-size: 1.1em;
+    margin: .4em 0 0 0;
+}
+div.pager {
+    text-align: right;
+    border-top: 2px solid silver;
+    padding: .5em 0 0 0;
+    margin-top: 1em;
+}
+div.pager a {
+    font-size: 1.1em;
+    color: #666;
+    text-decoration: none;
+    padding: 0 .4em 0 .4em;
+}
+div.pager a:hover {
+    background-color: Silver;
+}
+div.pager a.selected{
+    background-color: #353535;
+    color: White;
+}
+div#categories a {
+    font: bold 1.1em "Arial Narrow", "Franklin Gothic Medium", Arial;
+    display: block;
+    text-decoration: none;
+    padding: .6em;
+    color: black;
+    border-bottom: 1px solid silver;
+}
+div#categories a.selected {
+    background-color: #666;
+    color: white;
+}
+div#categories a.hover {
+    background-color: #CCC;
+}
+div#categories a.selected:hover {
+    background-color: #666;
+}
+form {
+    margin: 0;
+    padding: 0;
+}
+div.item form {
+    float: right;
+}
+div.item input {
+    color: white;
+    background-color: #333;
+    border: 1px solid black;
+    cursor: pointer;
+}
+h2 {
+    margin-top: 0.3em;
+}
+tfoot td {
+    border-top: 1px dotted gray;
+    font-weight: bold;
+}
+.actionButtons a, input.actionButtons {
+    font: .8em Arial;
+    color: white;
+    margin: .5em;
+    text-decoration: none;
+    padding: .15em 1.5em .2em 1.5em;
+    background-color: #353535;
+    border: 1px solid black;
+}
+div#cart {
+    float: right;
+    margin: .8em;
+    color: silver;
+    background-color: #555;
+    padding: .5em .5em .5em 1em;
+}
+div#cart a {
+    text-decoration: none;
+    padding: .4em 1em .4em 1em;
+    line-height: 2.1em;
+    margin-left: .5em;
+    background-color: #333;
+    color: white;
+    border: 1px solid black;
+}
